@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mad9Scientist&#39;s / HomeLab 🧪</title>
-    <link>http://localhost:1313/</link>
+    <link>https://homelab.mad9scientist.com/</link>
     <description>Recent content on Mad9Scientist&#39;s / HomeLab 🧪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Mar 2024 18:06:19 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://homelab.mad9scientist.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the Homelab</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://homelab.mad9scientist.com/posts/welcome/</link>
       <pubDate>Mon, 25 Mar 2024 18:06:19 -0500</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://homelab.mad9scientist.com/posts/welcome/</guid>
       <description>Welcome One and All to my experiments&amp;hellip;&#xA;I&amp;rsquo;m using this site to document my adventures with my homelab and other interesting information that I run across in the process.&#xA;As of today (March 25, 2024) I don&amp;rsquo;t have a lot of information posted, but I will update this site with what I&amp;rsquo;m playing with or testing at the moment.&#xA;I have posted a list of the physical hardware and software stack of my homelab also, I will try to keep those up to date as things change.</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/pages/services/</link>
+      <link>https://homelab.mad9scientist.com/pages/services/</link>
       <pubDate>Mon, 25 Mar 2024 18:02:54 -0500</pubDate>
-      <guid>http://localhost:1313/pages/services/</guid>
+      <guid>https://homelab.mad9scientist.com/pages/services/</guid>
       <description>Here&amp;rsquo;s a list of services I run in my homelab&#xA;Web Services (NGINX+PHP+MariaDB) Dokuwiki Next Cloud UniFi Controller WireGuard VPN Pi-Hole (DNSBL + DHCP) Docker Host Portainer Uptime Kuma LXC Host </description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/pages/software/</link>
+      <link>https://homelab.mad9scientist.com/pages/software/</link>
       <pubDate>Mon, 25 Mar 2024 15:47:53 -0500</pubDate>
-      <guid>http://localhost:1313/pages/software/</guid>
+      <guid>https://homelab.mad9scientist.com/pages/software/</guid>
       <description>My homelab runs many different things but I do have few constants:&#xA;Operating Systems Ubuntu Server (14-22) LTS Alpine Linux Debian Current Raspberry Pi OS Now lets get into the particulars&#xA;Vitualization Stack XCP-ng Let see, this is easy:&#xA;XCP-ng 8.2.x Xen Orchestra (Open Source) Proxmox VE I think it was Proxmox VE 7.4.x, but it crashed a while ago&#xA;Vitualized Guest All these guest are running on the XCP-ng pool.</description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>http://localhost:1313/pages/hardware/</link>
+      <link>https://homelab.mad9scientist.com/pages/hardware/</link>
       <pubDate>Mon, 25 Mar 2024 15:47:43 -0500</pubDate>
-      <guid>http://localhost:1313/pages/hardware/</guid>
+      <guid>https://homelab.mad9scientist.com/pages/hardware/</guid>
       <description>Here is a quick summary of the hardware that makes up my HomeLab. It&amp;rsquo;s not much, but it&amp;rsquo;s my&amp;hellip;&#xA;Virtualizaton Machines XCP-ng This is my XCP-ng testing pool that is running most all of my virtualizated services. I use Xen Orchestra, self complied version, to manage the pool and VMs.&#xA;Pool Version: XCP-ng v8.2.1&#xA;XCP1 Specs&#xA;Dell OptiPlex 3010 Intel Core i5 3450 @ 3.10 (4 Cores/4 Threads) 8GB DDR3? 400GB Spinning Rust XCP2 Specs</description>
     </item>
   </channel>

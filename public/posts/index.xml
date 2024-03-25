@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mad9Scientist&#39;s / HomeLab 🧪</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://homelab.mad9scientist.com/posts/</link>
     <description>Recent content in Posts on Mad9Scientist&#39;s / HomeLab 🧪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Mar 2024 18:06:19 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://homelab.mad9scientist.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the Homelab</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://homelab.mad9scientist.com/posts/welcome/</link>
       <pubDate>Mon, 25 Mar 2024 18:06:19 -0500</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://homelab.mad9scientist.com/posts/welcome/</guid>
       <description>Welcome One and All to my experiments&amp;hellip;&#xA;I&amp;rsquo;m using this site to document my adventures with my homelab and other interesting information that I run across in the process.&#xA;As of today (March 25, 2024) I don&amp;rsquo;t have a lot of information posted, but I will update this site with what I&amp;rsquo;m playing with or testing at the moment.&#xA;I have posted a list of the physical hardware and software stack of my homelab also, I will try to keep those up to date as things change.</description>
     </item>
   </channel>

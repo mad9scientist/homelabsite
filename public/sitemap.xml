@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://homelab.mad9scientist.com/</loc>
     <lastmod>2024-03-25T18:06:19-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://homelab.mad9scientist.com/posts/</loc>
     <lastmod>2024-03-25T18:06:19-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/welcome/</loc>
+    <loc>https://homelab.mad9scientist.com/posts/welcome/</loc>
     <lastmod>2024-03-25T18:06:19-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://homelab.mad9scientist.com/pages/</loc>
     <lastmod>2024-03-25T18:02:54-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/services/</loc>
+    <loc>https://homelab.mad9scientist.com/pages/services/</loc>
     <lastmod>2024-03-25T18:02:54-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/software/</loc>
+    <loc>https://homelab.mad9scientist.com/pages/software/</loc>
     <lastmod>2024-03-25T15:47:53-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/hardware/</loc>
+    <loc>https://homelab.mad9scientist.com/pages/hardware/</loc>
     <lastmod>2024-03-25T15:47:43-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://homelab.mad9scientist.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://homelab.mad9scientist.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
