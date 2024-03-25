@@ -1,0 +1,41 @@
+baseURL = 'https://homelab.mad9scientist.com/'
+languageCode = 'en-us'
+title = "Mad9Scientist's / HomeLab 🧪"
+theme = 'ananke'
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/mad9scientist/homelabsite"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/mad9scientist"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "Mad9Scientist"
+  favicon = "https://mad9scientist.com/m9s/wp-content/themes/mad9scientist-2g/img/favicon.ico"
+  site_logo = ""
+  description = "Mad9Scientist Homelab Adventures..."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-gray"
+  recent_posts_number = 5
+
+[menus]
+[[menus.main]]
+  name = 'Hardware'
+  pageRef = '/pages/hardware'
+  weight = 10
+[[menus.main]]
+  name = 'Software'
+  pageRef = '/pages/software'
+  weight = 15
+[[menus.main]]
+  name = 'Services'
+  pageRef = '/pages/services'
+  weight = 20
