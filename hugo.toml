@@ -39,3 +39,7 @@ url = "https://twitter.com/mad9scientist"
   name = 'Services'
   pageRef = '/pages/services'
   weight = 20
+[[menus.main]]
+  name = 'Mad9Scientist.com'
+  url = 'https://mad9scientist.com'
+  weight = 25
