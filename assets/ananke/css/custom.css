@@ -1,0 +1,10 @@
+aside.pullRight, aside.pullLeft{
+    padding: 1em;
+    width: 45%;
+    background: #eee;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #ccc;
+}
+aside.pullRight{float:right;}
+aside.pullLeft{float:left;}

@@ -24,20 +24,30 @@ url = "https://twitter.com/mad9scientist"
   description = "Mad9Scientist Homelab Adventures..."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-dark-gray"
-  recent_posts_number = 5
+  recent_posts_number = 6
+  show_reading_time = true
+  custom_css = ["custom.css"]
+
+# Allow HTML
+[markup.goldmark.renderer]
+unsafe=true
 
 [menus]
 [[menus.main]]
+  name = 'Articles'
+  pageRef = '/post/'
+  weight = 5
+[[menus.main]]
   name = 'Hardware'
-  pageRef = '/pages/hardware'
+  pageRef = '/homelab/hardware'
   weight = 10
 [[menus.main]]
   name = 'Software'
-  pageRef = '/pages/software'
+  pageRef = '/homelab/software'
   weight = 15
 [[menus.main]]
   name = 'Services'
-  pageRef = '/pages/services'
+  pageRef = '/homelab/services'
   weight = 20
 [[menus.main]]
   name = 'Mad9Scientist.com'
