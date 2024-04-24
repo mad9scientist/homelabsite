@@ -2,17 +2,18 @@
 title = 'Docker in LXC in a VM on Actual Hardware - WTF'
 date = 2024-04-01T00:24:09-05:00
 draft = true
+type = 'post'
 +++
 
-Ever did something to just see if it was possible?
+Have you ever do something, just to see if it was possible?
 
-Well that how did this happened. I asked the question no one asked, 
+Well, that is how I ended up with this,
 
-> Could you run docker containers inside of an LXC container, thats an Virtual Machine in my XCP-ng Stack??
+> Could you run docker containers inside of an LXC container, thats an Virtual Machine??
 
-Well the short answer is; yes, yes you can. How to get there is a bit of chore, but it is doable. 
+Well the short answer is; yes, yes you can. How to get there is a bit of a chore, but it is definetly doable. 
 
-> Disclaimer: Don't do this in production, really do not do it.
+> Disclaimer: DO NOT, I repeat, DO NOT DO THIS IN PRODUCTION!
 
 So I'm going to glaze over the following steps, and focus only one getting to Docker to work in LXC (jump to section)
 

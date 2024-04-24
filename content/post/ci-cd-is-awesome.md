@@ -2,6 +2,7 @@
 title = 'CI/CD is Awesome'
 date = 2024-04-14T22:00:25-05:00
 draft = true
+type = 'post'
 +++
 So I have been playing around with Cloudflare Pages to host my Status Site for my company. Cloudflare has the option to pull and deploy your project directly from GitHub, which is cool. But it wasn't til I tested entire workflow did I realized what my 'trash' deployment process I have been using. 
 
