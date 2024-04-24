@@ -39,15 +39,15 @@ unsafe=true
   weight = 5
 [[menus.main]]
   name = 'Hardware'
-  pageRef = '/homelab/hardware'
+  pageRef = '/hardware'
   weight = 10
 [[menus.main]]
   name = 'Software'
-  pageRef = '/homelab/software'
+  pageRef = '/software'
   weight = 15
 [[menus.main]]
   name = 'Services'
-  pageRef = '/homelab/services'
+  pageRef = '/services'
   weight = 20
 [[menus.main]]
   name = 'Mad9Scientist.com'
