@@ -2,6 +2,7 @@
 title = 'Software'
 date = 2024-03-25T15:47:53-05:00
 draft = false
+type = 'page'
 +++
 
 My homelab runs many different things but I do have few constants:

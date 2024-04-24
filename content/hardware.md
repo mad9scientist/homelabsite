@@ -2,6 +2,7 @@
 title = 'Hardware'
 date = 2024-03-25T15:47:43-05:00
 draft = false
+type = 'page'
 +++
 
 Here is a quick summary of the hardware that makes up my HomeLab. It's not much, but it's my...

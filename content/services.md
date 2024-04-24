@@ -2,6 +2,7 @@
 title = 'Services'
 date = 2024-03-25T18:02:54-05:00
 draft = false
+type = 'page'
 +++
 
 Here's a list of services I run in my homelab
@@ -13,6 +14,7 @@ Here's a list of services I run in my homelab
 * WireGuard VPN
 * Pi-Hole (DNSBL + DHCP)
 * Docker Host
-  * Portainer
+  * ~~Portainer~~
   * Uptime Kuma
+  * Dockge
 * LXC Host
