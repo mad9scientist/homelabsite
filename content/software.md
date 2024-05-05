@@ -12,10 +12,11 @@ My homelab runs many different things but I do have few constants:
   * Alpine Linux
   * Debian Current
   * Raspberry Pi OS
+  * Windows 10 (so heavy)
 
 Now lets get into the particulars
 
-## Vitualization Stack
+## Virtualization Stack
 
 ### XCP-ng 
 
@@ -25,35 +26,39 @@ Let see, this is easy:
 
 ### Proxmox VE
 
-I think it was Proxmox VE 7.4.x, but it crashed a while ago
+I think it was Proxmox VE 7.4-17, ~~but it crashed a while ago.~~
 
-## Vitualized Guest
+May 2024: It seems okay now? WTAF! I guess I'll need to upgrade this.
+
+## Virtualized Guests
 
 All these guest are running on the XCP-ng pool.
 
 **Cubes**: This is my testbed for LXC. I also have Docker running inside of an LXC Container and all this is running in a VM on XCP-ng. (Turtles all the way down)
 * OS: Ubuntu 22.04 LTS
 * LXC/LXD
-* Docker
-* Uptime Kuma
-* Portainer
+  * Docker
+    * Uptime Kuma
+    * Dockge
+    * Speedtest Tracker
 
 **GIT**: This is my internal Git Server for local development.
 * OS: Ubuntu 22.04 LTS
-* Gitea
+* App: Gitea
 
-**XOA**: This is my Xen Orchestra VM. It technically not the applience version of XO but the original test VM was name that so I continued the name..
+**XOA**: This is my Xen Orchestra VM. It technically not the appliance version of XO but the original test VM was name that so I continued the name..
 * OS: Ubuntu 22.04 LTS
 * Xen Orchestra from Sources
 
 **Collection of mini Alpine VMs**: These are for mini experiments and playing with Ansible
 
+**Other testing**: Windows Boxes, pfSense, haproxy, docker apps, Ubuntu DT - all for testing
 
 ## Everything Else
 
 ### Information Sphere
 
-I'm trying to mirgate services into VM and/or LXC Containers. But for the time being.
+I'm trying to migrate services into new VM and/or LXC Containers. But for the time being.
 
 * Software
   * OS: Ubuntu 18.04 LTS
@@ -61,9 +66,9 @@ I'm trying to mirgate services into VM and/or LXC Containers. But for the time b
   * Wireguard
   * UniFi Controller v8
 * Web Apps
-  * Doku Wiki
-  * Next Cloud
-  * SnipeIT
+  * Dokuwiki
+  * Nextcloud
+  * ~~SnipeIT~~ May 2024: Killed it with update, wasn't using it
 
 ### Bender
 

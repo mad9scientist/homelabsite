@@ -6,4 +6,4 @@ type: 'page'
 featured_image: 'https://i0.wp.com/mad9scientist.com/m9s/wp-content/uploads/2024/03/pexels-photo-459411-jpeg.webp?resize=1880%2C1244&ssl=1'
 ---
 Adventures in Homelab<br> 
-The Notes and Musings from the Adventures
+Notes and Musings from the Adventures

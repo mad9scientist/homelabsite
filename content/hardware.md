@@ -7,11 +7,11 @@ type = 'page'
 
 Here is a quick summary of the hardware that makes up my HomeLab. It's not much, but it's my...
 
-## Virtualizaton Machines
+## Virtualized Machines
 
 ### XCP-ng
 
-This is my XCP-ng testing pool that is running <s>most</s> all of my virtualizated services. I use Xen Orchestra, self complied version, to manage the pool and VMs. 
+This is my XCP-ng testing pool that is running <s>most</s> all of my virtualization services. I use Xen Orchestra, self complied version, to manage the pool and VMs. 
 
 Pool Version: XCP-ng v8.2.1
 
@@ -23,7 +23,6 @@ Specs
 * 8GB DDR3?
 * 400GB Spinning Rust
 
-
 #### XCP2
 
 Specs
@@ -31,7 +30,6 @@ Specs
 * Intel Core i5-8500 @ 3.0GHz (6 Cores/6 Threads)
 * 16GB DDR4
 * 80GB Spinning Rust
-
 
 ### Proxmox VE
 
@@ -54,7 +52,7 @@ General App Server and first machine to be implemented as homelab.
 This is a Hosted UniFi Controller, WireGuard VPN Server, NGINX Web Server and ZeroTier Router.
 
 Specs
-* Dell Deminsion
+* Dell Dimension
 * Pentium 4 @ 2.8GHz HT
 * 2GB DDR
 * 128GB PNY SSD
@@ -73,7 +71,6 @@ Specs
 * Raspberry Pi 3 Model B Rev 1.2
 * 32GB SD Card
 
-
 ### Marvin
 
 Currently offline, but planned to run some services in LXC containers.
@@ -81,7 +78,6 @@ Currently offline, but planned to run some services in LXC containers.
 Spec
 * Raspberry Pi 4 (8GB)
 * ~64GB SD Card
-
 
 ## NAS
 

@@ -5,16 +5,19 @@ draft = false
 type = 'page'
 +++
 
-Here's a list of services I run in my homelab
+Here's a list of services I run in my homelab in 'production'
 
 * Web Services (NGINX+PHP+MariaDB)
-  * Dokuwiki
-  * Next Cloud
+  * [Dokuwiki](https://www.dokuwiki.org/)
+  * [Nextcloud](https://nextcloud.com/) - testing
+  * [Gitea](https://about.gitea.com/)
 * UniFi Controller
 * WireGuard VPN
+* [Music Streaming](/post/music-streaming-server/) (Not Media Server)
 * Pi-Hole (DNSBL + DHCP)
 * Docker Host
   * ~~Portainer~~
-  * Uptime Kuma
-  * Dockge
+  * [Uptime Kuma](https://uptime.kuma.pet/)
+  * [Dockge](https://dockge.kuma.pet/)
+  * [Speedtest Tracker](https://docs.speedtest-tracker.dev/)
 * LXC Host
