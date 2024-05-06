@@ -6,9 +6,9 @@ type = 'post'
 +++
 So I have been playing around with Cloudflare Pages to host my Status Site for my company. Cloudflare has the option to pull and deploy your project directly from GitHub, which is cool. But it wasn't til I tested entire workflow did I realized what my 'trash' deployment process I have been using. 
 
-I knew that CD/CI (Continuous Deployment/Continuous Integration) made development easier to do. But I didn't realize how quickly and effencienly it did it. I have used all the little parts of the CD/CI pipe line over the years, but I have never had them all just work together to deliver the final product to production.
+I knew that CD/CI (Continuous Deployment/Continuous Integration) made development easier to do. But I didn't realize how quickly and efficiency it did it. I have used all the little parts of the CD/CI pipe line over the years, but I have never had them all just work together to deliver the final product to production.
 
-So I recently setup Gitea as local VM and I have started it using it more, since I know if I commit senstive information no one is going to see. _I don't want to want to do that but things happen_. I have also started playing around with [Hugo](https://gohugo.io), for this site. I decided that I wanted to put Hugo through it pace with a 'real' project, so I decided that I wanted to move my company's [status site](https://status.madscitech.net) away from Tumblr. 
+So I recently setup Gitea as local VM and I have started it using it more, since I know if I commit sensitive information no one is going to see. _I don't want to want to do that but things happen_. I have also started playing around with [Hugo](https://gohugo.io), for this site. I decided that I wanted to put Hugo through it pace with a 'real' project, so I decided that I wanted to move my company's [status site](https://status.madscitech.net) away from Tumblr. 
 
 <aside class="pullRight"><strong>Aside</strong>: Funny thing is I found while doing this that Tumblr is going to start charging for custom domains, but my account is currently grandfather in with an existing domain. So this project was well timed.</aside> 
 
@@ -24,10 +24,10 @@ I usually push code to my remote repos when I'm done for the day or if I'm going
 
 <aside class="pullRight"> <strong>Why</strong> I tend to push code to the remote just in case something happens to the local workstation. So if the local machine has a problem, my changes are not lost with that machine.</aside>
 
-It only ever been myself on the repos I work on, so working on main (master) has been my method for years. I learned Git thinking that main was unstable/bleeding edge of development, while tags/branches were cut for 'stable' releases. In my world everything is aways on the unstable, if something is broken, it going to be changed fast. But with this setup I'm going to start forcing my self to work in branches, like I'm suppose to do.
+It only ever been myself on the repos I work on, so working on main (master) has been my method for years. I learned Git thinking that main was unstable/bleeding edge of development, while tags/branches were cut for 'stable' releases. In my world everything is always on the unstable, if something is broken, it going to be changed fast. But with this setup I'm going to start forcing my self to work in branches, like I'm suppose to do.
 
 ----
 
 The next thing up in the automation train, how to setup CD pipe line for WordPress Themes. My current setup uses; PHP script, webhook and git, but it has been busted for long while now. I will write up solution, when I figure out a plan there. 
 
-If you have suggestions, tag me on [Twitter](https://twitter.com/mad9scientist) or [contact us](https://mad9scientist.com/about/contact/).
+If you have suggestions, tag me on [Twitter](https://twitter.com/mad9scientist) or [contact me](https://mad9scientist.com/about/contact/).
