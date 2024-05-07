@@ -1,7 +1,6 @@
 +++
 title = 'Easier Options for Music Server'
-date = 2024-05-07T14:49:13-05:00
-draft = true
+date = 2024-05-07T15:50:13-05:00
 type = 'post'
 +++
 So... 
