@@ -27,4 +27,4 @@ Other than having to 'restart' the mkChromecast process once every 20-24 hours i
 
 Now I'm going to do an experiment to see if I can do this just from the CLI in a LXC container with headless Chrome &mdash; wish me luck.
 
-If you have thoughts or a suggestion, tag me on [Twitter](https://twitter.com/mad9scientist) or [drop me a line here](https://mad9scientist.com/about/contact/).
+If you have thoughts or a suggestion, tag me on [Twitter](https://twitter.com/mad9scientist) or [drop me a line here](https://mad9scientist.com/contact/).

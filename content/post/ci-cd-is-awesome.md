@@ -30,4 +30,4 @@ It only ever been myself on the repos I work on, so working on main (master) has
 
 The next thing up in the automation train, how to setup CD pipe line for WordPress Themes. My current setup uses; PHP script, webhook and git, but it has been busted for long while now. I will write up solution, when I figure out a plan there. 
 
-If you have suggestions, tag me on [Twitter](https://twitter.com/mad9scientist) or [contact me](https://mad9scientist.com/about/contact/).
+If you have suggestions, tag me on [Twitter](https://twitter.com/mad9scientist) or [contact me](https://mad9scientist.com/contact/).
