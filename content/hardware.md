@@ -19,29 +19,43 @@ Pool Version: XCP-ng v8.2.1
 
 Specs
 * Dell OptiPlex 3010
-* Intel Core i5 3450 @ 3.10 (4 Cores/4 Threads)
-* 8GB DDR3?
-* 400GB Spinning Rust
+  * Intel Core i5 3450 @ 3.10 (4 Cores/4 Threads)
+  * 8GB DDR3?
+  * 400GB Spinning Rust
 
 #### XCP2
 
 Specs
 * Lenovo 10TX008XUS
-* Intel Core i5-8500 @ 3.0GHz (6 Cores/6 Threads)
-* 16GB DDR4
-* 80GB Spinning Rust
+  * Intel Core i5-8500 @ 3.0GHz (6 Cores/6 Threads)
+  * 16GB DDR4
+  * 80GB Spinning Rust
 
 ### Proxmox VE
 
-This was the first Level0(??) Hypervisor I started with, but some how set it up with an all SSD storage configuration. However, in early 2024 I stopped using it because the main both drive started throwing errors after few days of uptime. 
+This was the first Level0(??) Hypervisor I started with, but some how set it up with an all SSD storage configuration. ~~However, in early 2024 I stopped using it because the main drive started throwing errors after few days of uptime.~~ Well, it started working again without problems now - I'm currently using it for ansible testing.
+
+#### PVE
 
 Specs
-* Lenovo
-* AMD
-* 8GB DDR
-* Storage
-  * 128GB PNY SSD (boot)
-  * 512GB Inland SSD (Extra)
+* Lenovo H530 Desktop
+  * AMD A10-6700 @ 3.7-4.3GHz @ 3.7-4.3GHz (4 Cores/4 Threads)
+  * 8GB DDR (6.9GB Available)
+  * Storage
+    * 128GB PNY SSD (boot)
+    * 512GB Inland SSD (Extra)
+* Proxmox VE 7.4-18
+
+#### vhost002-pve
+
+In May 2024 I added another Proxmox host to make a two member cluster (I know it's not really a cluster - blah blah).
+
+Specs
+* HP Pavilion SFF 400-224
+  * AMD A4-5000 @ 3.7-4.3GHz (4 Cores/4 Threads) BGA
+  * 8GB DDR3-1600U
+  * 1TB Spinning Rust
+* Proxmox 8.2.2
 
 ## App Server
 
@@ -58,6 +72,8 @@ Specs
 * 128GB PNY SSD
 * FE Ethernet
 
+Future Project: Migrate to Containers and VM
+
 
 ## Raspberry Pi (RPi)
 
@@ -70,6 +86,22 @@ This is my Pi-Hole (DNS) and DHCP Server. This is the second revision of this ma
 Specs
 * Raspberry Pi 3 Model B Rev 1.2
 * 32GB SD Card
+
+### Zapp
+
+Upcoming multiple level project. Offline while working on Ansible Playbook.
+
+Involved Projects: 
+* IP Scheme Change
+* DHCP
+* BIND9 DNS
+* NTP
+* Highly Available/Redundancy
+
+Spec
+* Raspberry Pi Zero 2 W
+* 32GB SD Card
+* Wireless
 
 ### Marvin
 
