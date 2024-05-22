@@ -44,7 +44,7 @@ Specs
   * Storage
     * 128GB PNY SSD (boot)
     * 512GB Inland SSD (Extra)
-* Proxmox VE 7.4-18
+* OS: Proxmox VE 7.4-18
 
 #### vhost002-pve
 
@@ -55,7 +55,7 @@ Specs
   * AMD A4-5000 @ 3.7-4.3GHz (4 Cores/4 Threads) BGA
   * 8GB DDR3-1600U
   * 1TB Spinning Rust
-* Proxmox 8.2.2
+* OS: Proxmox 8.2.2
 
 ## App Server
 
@@ -67,10 +67,11 @@ This is a Hosted UniFi Controller, WireGuard VPN Server, NGINX Web Server and Ze
 
 Specs
 * Dell Dimension
-* Pentium 4 @ 2.8GHz HT
-* 2GB DDR
-* 128GB PNY SSD
-* FE Ethernet
+  * Pentium 4 @ 2.8GHz HT
+  * 2GB DDR
+  * 128GB PNY SSD
+  * FE Ethernet
+* OS: Ubuntu 18.04 LTS
 
 Future Project: Migrate to Containers and VM
 
@@ -85,7 +86,8 @@ This is my Pi-Hole (DNS) and DHCP Server. This is the second revision of this ma
 
 Specs
 * Raspberry Pi 3 Model B Rev 1.2
-* 32GB SD Card
+  * 32GB SD Card
+  * OS: Debian 12
 
 ### Zapp
 
@@ -100,8 +102,9 @@ Involved Projects:
 
 Spec
 * Raspberry Pi Zero 2 W
-* 32GB SD Card
-* Wireless
+  * 32GB SD Card
+  * Wireless
+  * OS: Ubuntu 24.04
 
 ### Marvin
 
@@ -109,7 +112,8 @@ Currently offline, but planned to run some services in LXC containers.
 
 Spec
 * Raspberry Pi 4 (8GB)
-* ~64GB SD Card
+  * ~64GB SD Card
+  * OS: ???
 
 ## NAS
 
