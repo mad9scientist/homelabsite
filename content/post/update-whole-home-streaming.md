@@ -1,7 +1,7 @@
 +++
 title = 'Update: Whole Home Streaming'
 date = 2024-05-21T17:43:14-05:00
-draft = true
+draft = false
 type = 'post'
 +++
 I discovered an interesting... problem.
