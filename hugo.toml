@@ -1,6 +1,6 @@
 baseURL = 'https://homelab.mad9scientist.com/'
 languageCode = 'en-us'
-title = "Mad9Scientist's / HomeLab 🧪"
+title = "Mad9Scientist's HomeLab 🧪"
 theme = 'ananke'
 
 [[params.ananke_socials]]
