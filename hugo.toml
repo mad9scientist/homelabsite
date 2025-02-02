@@ -1,15 +1,37 @@
 baseURL = 'https://homelab.mad9scientist.com/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = "Mad9Scientist's HomeLab 🧪"
 theme = 'ananke'
 
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/mad9scientist/homelabsite"
+enableRobotsTXT = true
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/mad9scientist"
+
+[params.ananke.social.follow]
+networks = [
+  "github",
+  "twitter",
+  "bluesky",
+]
+
+[params.ananke.social.share]
+networks = [
+  "bluesky",
+  "twitter",
+]
+
+[params.ananke.social.github]
+username = "mad9scientist"
+profilelink = "https://github.com/mad9scientist/homelabsite"
+rel = "me"
+
+[params.ananke.social.twitter]
+username = "mad9scientist"
+profilelink = "https://twitter.com/mad9scientist"
+rel = "me"
+
+[params.ananke.social.bluesky]
+username = "mad9scientist.bsky.social"
+
 
 [sitemap]
   changefreq = "monthly"
