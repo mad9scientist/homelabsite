@@ -8,8 +8,9 @@ type = 'page'
 Here's a list of services I run in my homelab in 'production'
 
 * Web Services (NGINX+PHP+MariaDB)
-  * [Dokuwiki](https://www.dokuwiki.org/)
-  * [Nextcloud](https://nextcloud.com/) - testing
+  * Production
+    * [Dokuwiki](https://www.dokuwiki.org/)
+    * [Nextcloud](https://nextcloud.com/) - Discontinued 
 * [Gitea](https://about.gitea.com/)
   * Gitea Runner/Actions
 * UniFi Controller
@@ -17,12 +18,12 @@ Here's a list of services I run in my homelab in 'production'
 * [Music Streaming](/post/music-streaming-server/) (Not Media Server)
 * [Pi-Hole](https://pi-hole.net) (DNSBL + DHCP)
 * Docker Host
-  * ~~Portainer~~
+  * ~~Portainer~~ [Dockge](https://dockge.kuma.pet/)
   * [Uptime Kuma](https://uptime.kuma.pet/)
-  * [Dockge](https://dockge.kuma.pet/)
   * [Speedtest Tracker](https://docs.speedtest-tracker.dev/)
   * [OpenSpeedTest](https://openspeedtest.com/)
+  * Calibre-Web - Testing
 * LXC/LXD Host
 * PXE Boot - via [Netboot.xyz](https://netboot.xyz) 
 * Ansible Control Host
-* HA Proxy (LXC)
+* HA Proxy (Reverse Proxy)

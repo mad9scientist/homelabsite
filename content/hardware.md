@@ -7,7 +7,7 @@ type = 'page'
 
 Here is a quick summary of the hardware that makes up my HomeLab. It's not much, but it's my...
 
-## Virtualized Machines
+## Hypervisor Servers (VMs)
 
 ### XCP-ng
 
@@ -63,6 +63,8 @@ General App Server and first machine to be implemented as homelab.
 
 ### Information Sphere
 
+***Retired: Migrated to LXC Containers and VM (UniFi)***
+
 This is a Hosted UniFi Controller, WireGuard VPN Server, NGINX Web Server and ZeroTier Router.
 
 Specs
@@ -73,7 +75,7 @@ Specs
   * FE Ethernet
 * OS: Ubuntu 18.04 LTS
 
-Future Project: Migrate to Containers and VM
+Current State: Migrate to Containers and VM
 
 
 ## Raspberry Pi (RPi)
@@ -89,7 +91,9 @@ Specs
   * 32GB SD Card
   * OS: Debian 12
 
-### Zapp
+### Future RPi
+
+#### Zapp
 
 Upcoming multiple level project. Offline while working on Ansible Playbook.
 
@@ -106,7 +110,7 @@ Spec
   * Wireless
   * OS: Ubuntu 24.04
 
-### Marvin
+#### Marvin
 
 Currently offline, but planned to run some services in LXC containers.
 
@@ -120,3 +124,24 @@ Spec
 * WD MyCloud Mirror 3TB
 
 Uses as shared storage for the XCP-ng Pool and some network storage.
+
+* SMB/Samba
+  * Windows Shares
+  * ISO Share
+* NFS
+  * VM Shared Storage
+  * Docker Storage
+
+## Power Usage
+
+Total Power Usage: 
+* Idle ~108 Watts
+* Peak ~130-170 Watts
+* Current As: Jan 2025
+
+Monitored Devices
+* Hypervisor Hosts
+  * XCP-ng
+  * Proxmox VE
+* NAS
+* Some Network
