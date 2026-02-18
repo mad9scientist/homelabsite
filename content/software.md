@@ -8,19 +8,20 @@ type = 'page'
 My homelab runs many different things but I do have few constants:
 
 * Operating Systems
-  * Ubuntu Server (14-22) LTS
+  * Ubuntu Server (14-24) LTS
   * Alpine Linux
   * Debian Linux
   * Raspberry Pi OS
-  * Windows 10 (so heavy)
+  * Windows 10
 
 Now lets get into the particulars
 
 ## Virtualization Stack
 
-### XCP-ng 
+### XCP-ng
 
 Let see, this is easy:
+
 * XCP-ng 8.2.x
 * Xen Orchestra (Open Source)
 
@@ -32,38 +33,47 @@ Proxmox v7.4.x & v8.3.x
 
 May 2024: It seems okay now? WTAF! I guess I'll need to upgrade this.
 
+Jan 2026: Main host is unustable for long term use.
 
 ## Virtualized Guests
 
 All these guest are running on the XCP-ng pool.
 
 **Cubes**: This is my testbed for LXC. I also have Docker running inside of an LXC Container and all this is running in a VM on XCP-ng. (Turtles all the way down)
+
 * OS: Ubuntu 22.04 LTS
 * LXC/LXD
   * Docker
-    * Uptime Kuma
     * Dockge
+    * Enclosed
+    * Uptime Kuma
+    * OpenSpeedTest
     * Speedtest Tracker
 
-**LXC001 Host**: This is a VM that is dedicated to running LXC Containers using LXC/LXD. Some of the containers include, Web Servers (Production and Dev), VPN Gateway, haproxy (soonish™). I decided to set this up to see if I need to stay with Proxmox VE just lightweight containers. 
+**LXC001 Host**: This is a VM that is dedicated to running LXC Containers using LXC/LXD. Some of the containers include, Web Servers (Production and Dev), VPN Gateway, haproxy (soonish™). I decided to set this up to see if I need to stay with Proxmox VE just lightweight containers.
 Also, I want to move away from the 'test' environment I created above, that became production.
+
 * OS: Ubuntu 24.04 LTS
 * App: LXC/LXD with UI
 
 **GIT**: This is my internal Git Server for local development.
+
 * OS: Ubuntu 22.04 LTS
 * App: Gitea
 
-**XOA**: This is my Xen Orchestra VM. It technically not the appliance version of XO but the original test VM was name that so I continued the name..
+**XOA**: This is my Xen Orchestra VM. It technically not the appliance version of XO but the original test VM was name that so I continued the name.
+
 * OS: Ubuntu 22.04 LTS
 * Xen Orchestra from Sources
 
 **Docker001 Host**: VM for hosting docker containers, still working on migrate containers from Cubes (above). \
 A joke shouldn't become production (VM>LXC>Docker).
-* OS: Ubuntu 2 LTS
+
+* OS: Ubuntu 24.04 LTS
 * Apps: Docker/Containerd
 
 **Music Server**: Streams audio to Google Home Mini for whole home audio
+
 * OS: Ubuntu: 24.04 LTS (Desktop; xfce)
 * Apps: VLC Player
 
@@ -97,7 +107,7 @@ I'm trying to migrate services into new VM and/or LXC Containers. But for the ti
 * Services
   * Pi-Hole
     * DHCP
-    * DNS
+    * DNS-BL
 
 ### Marvin
 
@@ -109,3 +119,10 @@ Raspberry Pi; Not yet deployed
 ### Zapp
 
 Raspberry Pi; Not yet deployed
+
+### OctoPrint
+
+Raspberry Pi Zero 2 W running OctoPrint.
+
+* Software
+  * OctoPrint OS

@@ -11,13 +11,14 @@ Here is a quick summary of the hardware that makes up my HomeLab. It's not much,
 
 ### XCP-ng
 
-This is my XCP-ng testing pool that is running <s>most</s> all of my virtualization services. I use Xen Orchestra, self complied version, to manage the pool and VMs. 
+This is my XCP-ng testing pool that is running *most* of my virtualization services. I use Xen Orchestra, self complied version, to manage the pool and VMs.
 
 Pool Version: XCP-ng v8.2.1
 
 #### XCP1
 
-Specs
+Specs:
+
 * Dell OptiPlex 3010
   * Intel Core i5 3450 @ 3.10 (4 Cores/4 Threads)
   * 8GB DDR3?
@@ -25,7 +26,8 @@ Specs
 
 #### XCP2
 
-Specs
+Specs:
+
 * Lenovo 10TX008XUS
   * Intel Core i5-8500 @ 3.0GHz (6 Cores/6 Threads)
   * 16GB DDR4
@@ -33,11 +35,14 @@ Specs
 
 ### Proxmox VE
 
-This was the first Level0(??) Hypervisor I started with, but some how set it up with an all SSD storage configuration. ~~However, in early 2024 I stopped using it because the main drive started throwing errors after few days of uptime.~~ Well, it started working again without problems now - I'm currently using it for ansible testing.
+This was the first Level0(??) Hypervisor I started with, but some how set it up with an all SSD storage configuration. ~~However, in early 2024 I stopped using it because the main drive started throwing errors after few days of uptime.~~ Well, it started working again without problems now.
+
+Update Jan 2026: The machine randomly 'lose' it internal drives controller and locks up after an extended uptime. I have started demoting PVE in my environment in favor of XCP-ng.
 
 #### PVE
 
-Specs
+Specs:
+
 * Lenovo H530 Desktop
   * AMD A10-6700 @ 3.7-4.3GHz @ 3.7-4.3GHz (4 Cores/4 Threads)
   * 8GB DDR (6.9GB Available)
@@ -45,17 +50,20 @@ Specs
     * 128GB PNY SSD (boot)
     * 512GB Inland SSD (Extra)
 * OS: Proxmox VE 7.4-18
+* Note: Unstable long term uptime (hardware mostly)
 
 #### vhost002-pve
 
 In May 2024 I added another Proxmox host to make a two member cluster (I know it's not really a cluster - blah blah).
 
-Specs
+Specs:
+
 * HP Pavilion SFF 400-224
   * AMD A4-5000 @ 3.7-4.3GHz (4 Cores/4 Threads) BGA
   * 8GB DDR3-1600U
   * 1TB Spinning Rust
 * OS: Proxmox 8.2.2
+* Note: Powered off, not really using it.
 
 ## App Server
 
@@ -67,7 +75,8 @@ General App Server and first machine to be implemented as homelab.
 
 This is a Hosted UniFi Controller, WireGuard VPN Server, NGINX Web Server and ZeroTier Router.
 
-Specs
+Specs:
+
 * Dell Dimension
   * Pentium 4 @ 2.8GHz HT
   * 2GB DDR
@@ -77,7 +86,6 @@ Specs
 
 Current State: Migrate to Containers and VM
 
-
 ## Raspberry Pi (RPi)
 
 Do you even have a homelab if you don't have any Raspberry Pis?
@@ -86,25 +94,31 @@ Do you even have a homelab if you don't have any Raspberry Pis?
 
 This is my Pi-Hole (DNS) and DHCP Server. This is the second revision of this machine, it was called Fry but it needed an OS Update, hence Bender. Soon™ Zapp and Kif will join Bender as redundant/backup DNS servers running BIND9.
 
-Specs
+Specs:
+
 * Raspberry Pi 3 Model B Rev 1.2
   * 32GB SD Card
   * OS: Debian 12
+  * Services: DHCP + DNS + DNS-BL
 
 ### Future RPi
 
 #### Zapp
 
+PLANNED
+
 Upcoming multiple level project. Offline while working on Ansible Playbook.
 
-Involved Projects: 
+Involved Projects:
+
 * IP Scheme Change
 * DHCP
 * BIND9 DNS
 * NTP
 * Highly Available/Redundancy
 
-Spec
+Specs:
+
 * Raspberry Pi Zero 2 W
   * 32GB SD Card
   * Wireless
@@ -114,10 +128,33 @@ Spec
 
 Currently offline, but planned to run some services in LXC containers.
 
-Spec
+Specs:
+
 * Raspberry Pi 4 (8GB)
   * ~64GB SD Card
   * OS: ???
+
+#### Octoprint
+
+As the hostname implies, this is a OctoPrint for my Ender 3 Pro 3D Printer.
+
+Specs:
+
+* Raspberry Pi Zero 2
+  * ~32GB SD Card
+  * OS: OctoPrint via RPI Foundation
+
+#### Home Assistant (test mode)
+
+Offline at the moment.
+
+This is a RPi I attempting to use/test/integrate Home Assistant into my Smart Home Crap
+
+Specs:
+
+* Raspberry Pi 4 (4G)?
+  * ~32GB SD Card
+  * OS: Home Assistant OS
 
 ## NAS
 
@@ -134,14 +171,18 @@ Uses as shared storage for the XCP-ng Pool and some network storage.
 
 ## Power Usage
 
-Total Power Usage: 
+Total Power Usage:
+
 * Idle ~108 Watts
-* Peak ~130-170 Watts
-* Current As: Jan 2025
+* Peak ~90-120 Watts
+* Current As: Jan 2026
 
 Monitored Devices
+
 * Hypervisor Hosts
   * XCP-ng
   * Proxmox VE
 * NAS
-* Some Network
+* Network Equipmen t
+  * Basic 8 Port Switch
+  * Old WiFi Router in AP Mode
