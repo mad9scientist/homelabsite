@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@davidsneighbour/markdownlint-config": "^2024.4.6",
-    "@davidsneighbour/release-config": "2024.4.6",
-    "@davidsneighbour/tools": "2024.4.6"
+    "@davidsneighbour/release-config": "2026.0.6",
+    "@davidsneighbour/tools": "2026.0.6"
   },
   "scripts": {
     "deploy": "cd exampleSite; hugo;",
