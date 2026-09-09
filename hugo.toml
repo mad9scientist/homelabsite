@@ -1,5 +1,5 @@
 baseURL = 'https://homelab.mad9scientist.com/'
-languageCode = 'en-US'
+locale = 'en-US'
 title = "Mad9Scientist's HomeLab 🧪"
 theme = 'ananke'
 
