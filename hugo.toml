@@ -1,7 +1,6 @@
 baseURL = 'https://homelab.mad9scientist.com/'
 locale = 'en-US'
 title = "Mad9Scientist's HomeLab 🧪"
-theme = 'ananke'
 
 enableRobotsTXT = true
 
