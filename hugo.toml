@@ -48,7 +48,10 @@ username = "mad9scientist.bsky.social"
   background_color_class = "bg-dark-gray"
   recent_posts_number = 6
   show_reading_time = true
-  custom_css = ["custom.css"]
+[params.ananke]
+  custom_css = [
+    "custom.css",
+  ]
 
 # Allow HTML
 [markup.goldmark.renderer]
